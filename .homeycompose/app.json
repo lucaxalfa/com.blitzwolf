@@ -1,0 +1,24 @@
+{
+  "id": "com.blitzwolf",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "Blitzwolf"
+  },
+  "description": {
+    "en": "Blitzwolf"
+  },
+  "category": [
+    "appliances"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Marco Gosselink",
+    "email": "-"
+  }
+}
