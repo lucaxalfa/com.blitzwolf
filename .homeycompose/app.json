@@ -4,10 +4,10 @@
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
-    "en": "Blitzwolf"
+    "en": "BlitzWolf"
   },
   "description": {
-    "en": "Blitzwolf"
+    "en": "Support for the Zigbee Smart Home devices made by BlitzWolf"
   },
   "category": [
     "appliances"

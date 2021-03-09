@@ -4,7 +4,11 @@
   },
   "class": "socket",
   "capabilities": [
-    "onoff"
+    "onoff",
+    "measure_voltage",
+    "measure_current",
+    "measure_power",
+    "meter_power"
   ],
   "zigbee": {
     "manufacturerName": "_TZ3000_g5xawfcq",
@@ -20,23 +24,25 @@
           2820
         ],
         "bindings": [
-          6
+          6,
+          1794,
+          2820
         ]
       }
     },
     "deviceId": 81,
     "profileId": 260,
     "learnmode": {
-      "image": "{{driverAssetsPath}}/learn.svg",
+      "image": "/drivers/bw-shp13/assets/learn.svg",
       "instruction": {
-        "en": "Long press the power button to open more than 5 seconds until the led flashes red",
-        "nl": "Druk de aan knop meer dan 5 seconden in totdat de led rood begint te knipperen."
+        "en": "Long press the power button to open more than 5 seconds until the led flashes blue",
+        "nl": "Druk de aan knop meer dan 5 seconden in totdat de led blauw begint te knipperen."
       }
     }
   },
   "images": {
-    "large": "{{driverAssetsPath}}/images/large.png",
-    "small": "{{driverAssetsPath}}/images/small.png"
+    "large": "/drivers/bw-shp13/assets/images/large.png",
+    "small": "/drivers/bw-shp13/assets/images/small.png"
   },
   "settings": []
 }

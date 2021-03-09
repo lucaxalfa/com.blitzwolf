@@ -5,10 +5,10 @@
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
-    "en": "Blitzwolf"
+    "en": "BlitzWolf"
   },
   "description": {
-    "en": "Blitzwolf"
+    "en": "Support for the Zigbee Smart Home devices made by BlitzWolf"
   },
   "category": [
     "appliances"
@@ -29,7 +29,11 @@
       },
       "class": "socket",
       "capabilities": [
-        "onoff"
+        "onoff",
+        "measure_voltage",
+        "measure_current",
+        "measure_power",
+        "meter_power"
       ],
       "zigbee": {
         "manufacturerName": "_TZ3000_g5xawfcq",
@@ -45,7 +49,9 @@
               2820
             ],
             "bindings": [
-              6
+              6,
+              1794,
+              2820
             ]
           }
         },
@@ -54,8 +60,8 @@
         "learnmode": {
           "image": "/drivers/bw-shp13/assets/learn.svg",
           "instruction": {
-            "en": "Long press the power button to open more than 5 seconds until the led flashes red",
-            "nl": "Druk de aan knop meer dan 5 seconden in totdat de led rood begint te knipperen."
+            "en": "Long press the power button to open more than 5 seconds until the led flashes blue",
+            "nl": "Druk de aan knop meer dan 5 seconden in totdat de led blauw begint te knipperen."
           }
         }
       },
